@@ -50,3 +50,5 @@ Bucket.prototype.append = function(photos){
 		this.ele.appendChild($row);
 	}
 }
+
+module.exports = Bucket;

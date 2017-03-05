@@ -29,3 +29,7 @@ function loadImage(data, callback){
 		}
 	}
 }
+
+module.exports = {
+	getPhotos: getPhotos
+}

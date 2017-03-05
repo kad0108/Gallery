@@ -62,3 +62,5 @@ Modal.prototype.show = function(url, burl, radio){
 		}
 	}
 }
+
+module.exports = Modal;

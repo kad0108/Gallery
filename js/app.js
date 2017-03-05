@@ -1,3 +1,6 @@
+var Modal = require('./modal');
+var Util = require('./util');
+
 /*
 * 应用层组织各模块，以及页面逻辑的实现
 */
@@ -17,7 +20,7 @@ function Application(waterfall){
 Application.prototype.load = function(){
 	this.bounce.classList.remove('hide');
 	this.loading = true;
-	getPhotos(this.page++, this.loaded.bind(this));
+	Util.getPhotos(this.page++, this.loaded.bind(this));
 }
 //加载结束
 Application.prototype.loaded = function(photos){
@@ -40,3 +43,5 @@ Application.prototype.click = function(event){
 		this.modal.show(target.src, target.dataset.large, target.dataset.radio);
 	}
 }
+
+module.exports = Application;

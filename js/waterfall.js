@@ -46,3 +46,5 @@ Waterfall.prototype.append = function(photos){
 		img.style.height = parseInt(item.clientWidth / photos[i].aspect_ratio) + 'px';
 	}
 }
+
+module.exports = Waterfall;

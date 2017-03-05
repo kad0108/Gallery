@@ -1,0 +1,24 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "Gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kad0108/Gallery.git"
+  },
+  "author": "kad0108",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kad0108/Gallery/issues"
+  },
+  "homepage": "https://github.com/kad0108/Gallery#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  }
+}
